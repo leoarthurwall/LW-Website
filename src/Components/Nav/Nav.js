@@ -5,12 +5,12 @@ const Nav = () => {
   return (
     <nav className={styles.nav}>
       <div className={styles.container}>
-        <h2 className={styles.logo}><span className={styles.span}>lw</span>webstudio</h2>
+        <h2 className={styles.logo}><span className={styles.span}>LW</span>webstudio<span className={styles.accent}>.</span></h2>
         <ul className={styles.list}>
           <li className={styles.item}>About Me</li>
-          <li>My Services</li>
-          <li>Previous Work</li>
-          <li>Get in Touch</li>
+          <li className={styles.item}>My Services</li>
+          <li className={styles.item}>Previous Work</li>
+          <li className={styles.item}>Get in Touch</li>
         </ul>
       </div>
     </nav>

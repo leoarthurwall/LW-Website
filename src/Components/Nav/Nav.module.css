@@ -26,15 +26,48 @@
   font-weight: 100;
 }
 .span {
-    font-weight: 600;
+  font-weight: 500;
 }
-
+.accent {
+  font-weight: 600;
+  color: #61d7c5;
+}
 .list {
   display: flex;
-  align-items: center;
-  flex-direction: row;
+  justify-items: center;
   list-style-type: none;
-  gap: 25px;
+  gap: 40px;
   padding: 0;
   height: fit-content;
+}
+
+.item {
+  font-weight: 500;
+  padding-bottom: 7px;
+  cursor: pointer;
+  transition: 0.2s;
+
+  display: inline-block;
+  position: relative;
+}
+
+.item:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #61d7c5;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.item:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.item:hover {
+  color: grey;
 }
