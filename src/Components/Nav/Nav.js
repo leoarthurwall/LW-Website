@@ -4,7 +4,7 @@ import styles from "./Nav.module.css";
 const Nav = () => {
   return (
     <nav className={styles.nav}>
-      <div className={styles.contianer}>
+      <div className={styles.container}>
         <h2 className={styles.logo}>LW Web Studio</h2>
         <ul className={styles.list}>
           <li className={styles.item}>About Me</li>

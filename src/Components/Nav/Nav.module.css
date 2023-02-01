@@ -14,13 +14,13 @@
   max-width: 1200px;
 
   display: flex;
-
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 .logo {
   margin: 0;
-  padding: 20px 50px;
+  padding: 20px 0;
   font-size: 40px;
   color: black;
   font-weight: 400;
