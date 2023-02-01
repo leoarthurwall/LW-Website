@@ -1,5 +1,5 @@
 .nav {
-  height: auto;
+  height: 70px;
   width: 100%;
   background-color: white;
 
@@ -9,7 +9,7 @@
 }
 
 .container {
-  height: auto;
+  height: 100%;
   width: 100%;
   max-width: 1200px;
 
@@ -17,10 +17,11 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 0 50px;
 }
 .logo {
   margin: 0;
-  padding: 20px 0;
+  padding: 0;
   font-size: 36px;
   color: black;
   font-weight: 100;
@@ -34,21 +35,21 @@
 }
 .list {
   display: flex;
-  justify-items: center;
   list-style-type: none;
   gap: 40px;
   padding: 0;
-  height: fit-content;
+  height: 100%;
+  align-items: center;
 }
 
 .item {
   font-weight: 500;
-  padding-bottom: 7px;
   cursor: pointer;
   transition: 0.2s;
-
   display: inline-block;
   position: relative;
+  margin-top: 18px;
+  padding-bottom: 5px;
 }
 
 .item:after {
@@ -62,7 +63,7 @@
   background-color: #61d7c5;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
-}
+} 
 
 .item:hover::after {
   transform: scaleX(1);
