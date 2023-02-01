@@ -1,8 +1,20 @@
 import React from 'react'
+import styles from "./Nav.module.css"
 
 const Nav = () => {
   return (
-    <div>Nav</div>
+    <nav>
+      <div>
+        <h2>LW Web Studio</h2>
+        <ul>
+          <li>About Me</li>
+          <li>My Services</li>
+          <li>Previous Work</li>
+          <li>Get in Touch</li>
+          <li></li>
+        </ul>
+      </div>
+    </nav>
   )
 }
 
