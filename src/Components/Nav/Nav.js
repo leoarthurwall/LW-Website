@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <nav className={styles.nav}>
       <div className={styles.container}>
-        <h2 className={styles.logo}>LW Web Studio</h2>
+        <h2 className={styles.logo}><span className={styles.span}>lw</span>webstudio</h2>
         <ul className={styles.list}>
           <li className={styles.item}>About Me</li>
           <li>My Services</li>

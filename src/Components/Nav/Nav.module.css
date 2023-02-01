@@ -21,9 +21,12 @@
 .logo {
   margin: 0;
   padding: 20px 0;
-  font-size: 40px;
+  font-size: 36px;
   color: black;
-  font-weight: 400;
+  font-weight: 100;
+}
+.span {
+    font-weight: 600;
 }
 
 .list {
