@@ -6,6 +6,7 @@ const About = () => {
     <section className={styles.about}>
       <div className={styles.container}>
         <div className={styles.left}></div>
+        <div className={styles.bottom}></div>
         <div className={styles.right}>
           <h2 className={styles.header}>
             What I do<span className={styles.accent}>.</span>
