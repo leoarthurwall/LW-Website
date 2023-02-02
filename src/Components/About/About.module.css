@@ -1,0 +1,15 @@
+.about {
+  height: 80vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  max-width: 1200px;
+  background-color: #121212;
+  margin: 0 50px;
+}
