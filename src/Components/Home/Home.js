@@ -6,9 +6,9 @@ const Home = () => {
     <section className={styles.home}>
       <div className={styles.container}>
         <div className={styles.textBox}>
-          <h1 className={styles.name}>Hi, I'm Leo</h1>
-          <h1 className={styles.role}>
-            A freelance web developer in Hampshire, England
+          <h1 className={styles.text}>Hi, I'm Leo..<span className={styles.accent}>.</span></h1>
+          <h1 className={styles.text}>
+            A freelance web developer <br /><span className={styles.accent}>&</span> designer in the UK
             <span className={styles.accent}>.</span>
           </h1>
         </div>
