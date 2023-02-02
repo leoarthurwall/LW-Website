@@ -29,5 +29,5 @@
   padding: 0;
 }
 .accent {
-  color: #61d7c5;
+  color: var(--accent-color)
 }
