@@ -13,6 +13,8 @@
   background-color: #121212;
   margin: 0 100px;
   position: relative;
+  display: flex;
+  justify-content: flex-end;
 }
 .left {
   position: absolute;
@@ -20,5 +22,14 @@
   width: 50%;
   left: -80px;
   top: -80px;
-  background-color: #EAE9E5;
+  background-color: #eae9e5;
+}
+.right {
+  height: 100%;
+  width: 50%;
+  background-color: #eae9e5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
