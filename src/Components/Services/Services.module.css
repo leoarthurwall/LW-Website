@@ -65,3 +65,10 @@
 .accent {
   color: var(--accent-color);
 }
+.lower {
+    width: 70%;
+}
+.text {
+  font-size: 18px;
+  line-height: 28px;
+}
