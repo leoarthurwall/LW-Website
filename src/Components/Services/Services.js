@@ -9,10 +9,12 @@ const Services = () => {
           My services<span className={styles.accent}>.</span>
         </h2>
         <div className={styles.gridContainer}>
-          <div className={styles.grid.item}>
+          <div className={styles.gridItem}>
             <div className={styles.upper}>
               <div className={styles.circle}></div>
-              <div className={styles.subHeader}> </div>
+              <h3 className={styles.subHeader}>
+                Web Development<span className={styles.accent}>.</span>{" "}
+              </h3>
             </div>
             <div className={styles.lower}></div>
           </div>
