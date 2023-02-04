@@ -1,6 +1,9 @@
 import React from "react";
 import styles from "./Services.module.css";
 import { BiCodeAlt } from "react-icons/bi";
+import { MdDesignServices } from "react-icons/md";
+import { AiTwotoneSetting } from "react-icons/ai";
+import { GiTransparentTubes } from "react-icons/gi";
 
 const Services = () => {
   const servicesArray = [
@@ -11,17 +14,17 @@ const Services = () => {
     },
     {
       title: "Web Design",
-      icon: BiCodeAlt,
+      icon: MdDesignServices,
       text: "My main area of expertise lies within frontend development but can also offer backend development to deliver any web functionalities to suit all your project needs. This could be by building a brand new website or perhaps by adding extra features to an exiting one.",
     },
     {
       title: "Web Maintenance",
-      icon: BiCodeAlt,
+      icon: AiTwotoneSetting,
       text: "My main area of expertise lies within frontend development but can also offer backend development to deliver any web functionalities to suit all your project needs. This could be by building a brand new website or perhaps by adding extra features to an exiting one.",
     },
     {
       title: "Web Optimisation",
-      icon: BiCodeAlt,
+      icon: GiTransparentTubes,
       text: "My main area of expertise lies within frontend development but can also offer backend development to deliver any web functionalities to suit all your project needs. This could be by building a brand new website or perhaps by adding extra features to an exiting one.",
     },
   ];
