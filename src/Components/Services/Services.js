@@ -1,22 +1,27 @@
 import React from "react";
 import styles from "./Services.module.css";
+import { BiCodeAlt } from "react-icons/bi";
 
 const Services = () => {
   const servicesArray = [
     {
       title: "Web Development",
+      icon: BiCodeAlt,
       text: "My main area of expertise lies within frontend development but can also offer backend development to deliver any web functionalities to suit all your project needs. This could be by building a brand new website or perhaps by adding extra features to an exiting one.",
     },
     {
       title: "Web Design",
+      icon: BiCodeAlt,
       text: "My main area of expertise lies within frontend development but can also offer backend development to deliver any web functionalities to suit all your project needs. This could be by building a brand new website or perhaps by adding extra features to an exiting one.",
     },
     {
       title: "Web Maintenance",
+      icon: BiCodeAlt,
       text: "My main area of expertise lies within frontend development but can also offer backend development to deliver any web functionalities to suit all your project needs. This could be by building a brand new website or perhaps by adding extra features to an exiting one.",
     },
     {
       title: "Web Optimisation",
+      icon: BiCodeAlt,
       text: "My main area of expertise lies within frontend development but can also offer backend development to deliver any web functionalities to suit all your project needs. This could be by building a brand new website or perhaps by adding extra features to an exiting one.",
     },
   ];
@@ -29,10 +34,13 @@ const Services = () => {
         </h2>
         <div className={styles.gridContainer}>
           {servicesArray.map((service, id) => {
+            const Icon = service.icon;
             return (
               <div className={styles.gridItem}>
                 <div className={styles.upper}>
-                  <div className={styles.circle}></div>
+                  <div className={styles.circle}>
+                    <Icon />
+                  </div>
                   <h3 className={styles.subHeader}>
                     {service.title}
                     <span className={styles.accent}>.</span>{" "}
