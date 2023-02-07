@@ -58,7 +58,7 @@
   text-align: center;
   height: 100%;
   width: 100%;
-  padding: 30px 50px;
+  padding: 70px;
   transition: 0.5s;
   visibility: hidden;
   opacity: 0;
@@ -77,11 +77,13 @@
   font-weight: 300;
   font-size: 32px;
   letter-spacing: 5px;
+  margin: 0;
 }
 
 .itemText {
   color: var(--secondary-color);
   font-weight: 300;
-  font-size: 20px;
-  transition: all 0.2s;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin: 0;
 }

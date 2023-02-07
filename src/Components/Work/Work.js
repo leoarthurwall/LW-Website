@@ -14,7 +14,7 @@ const Work = () => {
       bgImage: "images/inov8.jpeg",
     },
     {
-      title: "PearsonsLloyd",
+      title: "PearsonLloyd",
       text: "Web Development",
       bgImage: "images/PearsonLloyd.jpeg",
     },
