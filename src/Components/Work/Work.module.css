@@ -1,111 +1,82 @@
 .work {
-    height: 100%;
-    width: 100%;
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-  }
-  .container {
-    height: 100%;
-    width: 100%;
-    margin: 0 100px;
-  
-    display: flex;
-    flex-direction: column;
-    background-color: var(--secondary-color);
+  height: 100%;
+  width: 100%;
 
-  }
-  .header {
-    font-size: 50px;
-    margin: 0;
-    padding-bottom: 50px;
-  }
-  .accent {
-    color: var(--accent-color);
-  }
-  .gridContainer {
-    display: grid;
-    grid-template-columns: 1fr ;
-    gap: 15px;
-    width: auto;
- 
-    background-color: var(--white);
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  margin: 0 100px;
 
-  .gridItem {
-    min-width: 400px;
-    height: 400px;
-    background-color: var(--secondary);
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.2s ease-in-out;
-    overflow: hidden;
-  }
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  font-size: 50px;
+  margin: 0;
+  padding-bottom: 50px;
+}
+.accent {
+  color: var(--accent-color);
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  width: auto;
+}
 
-  .image {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    position: absolute;
-    transition: all 0.3s ease-in-out;
-  }
-  .image:hover {
-    transform: scale(1.05);
-  }
-  .imageTextWrapper {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
-    height: 100%;
-    width: 100%;
-    padding: 30px;
-    background-color: rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease-in-out;
-  }
-  .imageTextWrapper:hover {
-    background-color: rgba(0, 0, 0, 0.7);
-  }
-  .imageTextWrapper:hover .itemText {
-    visibility: visible;
-  }
-  .itemHeader {
-    color: var(--white);
-    font-weight: 300;
-    font-size: 32px;
-  }
-  @media screen and (max-width: 900px) {
-    .itemHeader {
-      font-size: 24px;
-    }
-  }
-  @media screen and (max-width: 550px) {
-    .itemHeader {
-      font-size: 28px;
-    }
-  }
-  .itemText {
-    color: var(--white);
-    font-weight: 300;
-    font-size: 20px;
-    transition: all 0.2s;
-  
-    visibility: hidden;
-  }
-  
-  @media screen and (max-width: 900px) {
-    .itemText {
-      font-size: 13px;
-    }
-  }
-  @media screen and (max-width: 550px) {
-    .itemText {
-      font-size: 14px;
-    }
-  }
-  
+.gridItem {
+  min-width: 400px;
+  height: 400px;
+  background-color: var(--secondary);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+.image:hover {
+  transform: scale(1.05);
+}
+.imageTextWrapper {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  visibility: hidden;
+}
+.imageTextWrapper:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  visibility: visible;
+}
+.itemHeader {
+  color: var(--secondary-color);
+  font-weight: 300;
+  font-size: 32px;
+}
+.itemText {
+  color: var(--secondary-color);
+  font-weight: 300;
+  font-size: 20px;
+  transition: all 0.2s;
+}
