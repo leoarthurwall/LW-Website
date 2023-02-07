@@ -25,49 +25,88 @@
     color: var(--accent-color);
   }
   .gridContainer {
-  
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
-    width: 100%;
-    height: 100%;
+    width: auto;
+    position: absolute;
+    top: -70px;
+    background-color: var(--white);
+    padding: 15px;
   }
+
   .gridItem {
+    min-width: 400px;
+    height: 400px;
+    background-color: var(--secondary);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    overflow: hidden;
+  }
+
+  .image {
+    height: 100%;
     width: 100%;
-    height: auto;
+    object-fit: cover;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+  }
+  .image:hover {
+    transform: scale(1.05);
+  }
+  .imageTextWrapper {
+    position: absolute;
     display: flex;
     flex-direction: column;
-  }
-  .upper {
+    justify-content: space-around;
+    text-align: center;
+    height: 100%;
     width: 100%;
-    display: flex;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 20px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
   }
-  .circle {
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    background-color: var(--accent-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .imageTextWrapper:hover {
+    background-color: rgba(0, 0, 0, 0.7);
   }
-  .subHeader {
-    margin: 0;
-    padding: 0;
-    font-size: 24px;
+  .imageTextWrapper:hover .itemText {
+    visibility: visible;
   }
-  .accent {
-    color: var(--accent-color);
+  .itemHeader {
+    color: var(--white);
+    font-weight: 300;
+    font-size: 32px;
   }
-  .lower {
-      width: 80%;
+  @media screen and (max-width: 900px) {
+    .itemHeader {
+      font-size: 24px;
+    }
   }
-  .text {
-    font-size: 18px;
-    line-height: 28px;
+  @media screen and (max-width: 550px) {
+    .itemHeader {
+      font-size: 28px;
+    }
+  }
+  .itemText {
+    color: var(--white);
+    font-weight: 300;
+    font-size: 20px;
+    transition: all 0.2s;
+  
+    visibility: hidden;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .itemText {
+      font-size: 13px;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .itemText {
+      font-size: 14px;
+    }
   }
   
