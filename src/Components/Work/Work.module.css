@@ -51,7 +51,6 @@
 }
 .image:hover {
   transform: scale(1.05);
-  background-color: black;
 }
 .imageTextWrapper {
   position: absolute;
@@ -62,19 +61,21 @@
   height: 100%;
   width: 100%;
   padding: 30px;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.7);
   transition: all 0.3s ease-in-out;
-  visibility: hidden;
+  display: none;
+  
 }
 .imageTextWrapper:hover {
-  background-color: rgba(0, 0, 0, 0.7);
-  visibility: visible;
+  display: show;
 }
+
 .itemHeader {
   color: var(--secondary-color);
   font-weight: 300;
   font-size: 32px;
 }
+
 .itemText {
   color: var(--secondary-color);
   font-weight: 300;
