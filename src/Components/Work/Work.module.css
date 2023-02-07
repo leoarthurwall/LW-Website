@@ -1,5 +1,5 @@
 .work {
-    height: 100vh;
+    height: 100%;
     width: 100%;
   
     display: flex;
@@ -10,11 +10,12 @@
   .container {
     height: 100%;
     width: 100%;
-    max-width: 1200px;
     margin: 0 100px;
   
     display: flex;
     flex-direction: column;
+    background-color: var(--secondary-color);
+
   }
   .header {
     font-size: 50px;
@@ -26,13 +27,11 @@
   }
   .gridContainer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr ;
     gap: 15px;
     width: auto;
-    position: absolute;
-    top: -70px;
+ 
     background-color: var(--white);
-    padding: 15px;
   }
 
   .gridItem {

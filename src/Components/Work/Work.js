@@ -7,15 +7,19 @@ const Work = () => {
     {
       title: "JM Exteriors",
       text: "My main area of expertise lies within frontend development but can also offer backend development to deliver any web functionalities to suit all your project needs. This could be by building a brand new website or perhaps by adding extra features to an exiting one.",
-      bgImage: "",
+      bgImage: "images/Window.jpeg",
     },
     {
       title: "Inov-8",
       text: "My main area of expertise lies within frontend development but can also offer backend development to deliver any web functionalities to suit all your project needs. This could be by building a brand new website or perhaps by adding extra features to an exiting one.",
+      bgImage: "images/inov8.jpeg",
+
     },
     {
       title: "Pearsons",
       text: "My main area of expertise lies within frontend development but can also offer backend development to deliver any web functionalities to suit all your project needs. This could be by building a brand new website or perhaps by adding extra features to an exiting one.",
+      bgImage: "images/PearsonLloyd.jpeg",
+
     },
   ];
 
