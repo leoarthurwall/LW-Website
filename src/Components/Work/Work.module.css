@@ -51,6 +51,7 @@
 }
 .image:hover {
   transform: scale(1.05);
+  background-color: black;
 }
 .imageTextWrapper {
   position: absolute;
