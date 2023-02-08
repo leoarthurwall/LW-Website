@@ -55,7 +55,7 @@ const Footer = () => {
             </div>
           </div>
           </div>
-          <p className={styles.text}>Southsea, Portsmouth, Hampshire, UK, PO4. </p>
+          <p className={styles.text}>Southsea, Hampshire, UK, PO4. </p>
         </div>
       </div>
     </section>
