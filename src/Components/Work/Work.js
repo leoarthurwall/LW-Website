@@ -24,7 +24,7 @@ const Work = () => {
     <section className={styles.work}>
       <div className={styles.container}>
         <h2 className={styles.header}>
-          My Work<span className={styles.accent}>.</span>
+          Featured Work<span className={styles.accent}>.</span>
         </h2>
         <div className={styles.gridContainer}>
           {workArray.map((work, index) => {
