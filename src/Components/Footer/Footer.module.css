@@ -40,9 +40,26 @@
 .right {
   height: 100%;
   width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .textWrapper {
   width: 100%;
   display: flex;
   flex-direction: column;
+}
+.list {
+    list-style-type: none;
+    color: var(--secondary-color);
+    font-size: 16px;
+    padding: 0%;
+
+}
+.item {
+
 }
