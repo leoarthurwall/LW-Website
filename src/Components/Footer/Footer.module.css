@@ -41,8 +41,16 @@
   height: 100%;
   width: 50%;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 50px;
 }
+.rightUpper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
 .rightColumn {
   display: flex;
   flex-direction: column;
@@ -54,12 +62,8 @@
   flex-direction: column;
 }
 .list {
-    list-style-type: none;
-    color: var(--secondary-color);
-    font-size: 16px;
-    padding: 0%;
-
-}
-.item {
-
+  list-style-type: none;
+  color: var(--secondary-color);
+  font-size: 16px;
+  padding: 0%;
 }

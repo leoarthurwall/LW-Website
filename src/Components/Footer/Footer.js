@@ -17,6 +17,7 @@ const Footer = () => {
           <p className={styles.text}>© 2022 LW Web Studio.</p>
         </div>
         <div className={styles.right}>
+        <div className={styles.rightUpper}>
           <div className={styles.rightColumn}>
             <div className={styles.textWrapper}>
               <h3 className={styles.header}>
@@ -53,6 +54,8 @@ const Footer = () => {
               </ul>
             </div>
           </div>
+          </div>
+          <p className={styles.text}>Southsea, Portsmouth, Hampshire, UK, PO4. </p>
         </div>
       </div>
     </section>
