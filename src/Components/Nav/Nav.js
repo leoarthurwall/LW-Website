@@ -1,11 +1,12 @@
 import React from "react";
+import Logo from "../../Parts/Logo/Logo";
 import styles from "./Nav.module.css";
 
 const Nav = () => {
   return (
     <nav className={styles.nav}>
       <div className={styles.container}>
-        <h2 className={styles.logo}><span className={styles.span}>LW</span>webstudio<span className={styles.accent}>.</span></h2>
+      <Logo fontSize={"36px"} color={"var(--black-color)"}/>
         <ul className={styles.list}>
           <li className={styles.item}>About Me</li>
           <li className={styles.item}>My Services</li>
