@@ -66,3 +66,10 @@
 .accent {
     color: var(--accent-color);
 }
+.buttonWrapper {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

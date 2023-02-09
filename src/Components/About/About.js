@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../../Parts/Button/Button";
 import styles from "./About.module.css";
 
 const About = () => {
@@ -20,6 +21,9 @@ const About = () => {
             you’re looking for a brand new or wish to further develop an
             existing website, I would be happy to help you achieve your goal.{" "}
           </p>
+          <div className={styles.buttonWrapper}>
+            <Button text={"find out more"} />
+          </div>
         </div>
       </div>
     </section>

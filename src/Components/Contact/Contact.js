@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../../Parts/Button/Button";
 import styles from "./Contact.module.css";
 
 const Contact = () => {
@@ -14,6 +15,9 @@ const Contact = () => {
           available to take on new work, so if you're interested in working
           together, please feel free to get in contact with by email or phone.
         </p>
+        <div className={styles.buttonWrapper}>
+            <Button text={"get in touch"} />
+          </div>
       </div>
     </section>
   );
