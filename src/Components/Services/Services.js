@@ -4,6 +4,7 @@ import { BiCodeAlt } from "react-icons/bi";
 import { MdDesignServices } from "react-icons/md";
 import { AiTwotoneSetting } from "react-icons/ai";
 import { GiTestTubes } from "react-icons/gi";
+import Button from "../../Parts/Button/Button";
 
 const Services = () => {
   const servicesArray = [
@@ -56,6 +57,7 @@ const Services = () => {
             );
           })}
         </div>
+        <Button text={"button"}/>
       </div>
     </section>
   );

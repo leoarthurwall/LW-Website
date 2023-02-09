@@ -1,0 +1,11 @@
+.button {
+    background-color: var(--accent-color);
+    width: max-content;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border-bottom: 5px solid #00b3a5;
+    text-transform:uppercase;
+    cursor: pointer;
+}
+
