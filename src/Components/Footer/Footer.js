@@ -10,7 +10,8 @@ const Footer = () => {
           <div className={styles.textWrapper}>
             <Logo fontSize={"28px"} color={"var(--secondary-color)"} />
             <p className={styles.text}>
-              Making great ideas a reality on the web.
+              Here to bring your great ideas to life through web design and
+              development.
             </p>
           </div>
           <p className={styles.lowerText}>© 2022 LW Web Studio.</p>
