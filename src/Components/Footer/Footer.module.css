@@ -27,6 +27,7 @@
 .text {
   font-size: 16px;
   color: var(--secondary-color);
+  font-weight: 300;
 }
 .lowerText {
   font-size: 14px;
@@ -67,7 +68,6 @@
 }
 .list {
   list-style-type: none;
-  color: var(--secondary-color);
   font-size: 16px;
   padding: 0%;
   display: flex;
@@ -75,3 +75,35 @@
   gap: 5px;
 }
 
+.item {
+  width: fit-content;
+  cursor: pointer;
+  transition: 0.2s;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 5px;
+  color: var(--secondary-color);
+
+}
+
+.item:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--accent-color);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+} 
+
+.item:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.item:hover {
+  color: var(--grey-color);
+  font-weight: 400;
+}
