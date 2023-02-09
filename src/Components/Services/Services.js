@@ -43,7 +43,7 @@ const Services = () => {
               <div className={styles.gridItem}>
                 <div className={styles.upper}>
                   <div className={styles.circle}>
-                    <Icon size={32}/>
+                    <Icon size={32} />
                   </div>
                   <h3 className={styles.subHeader}>
                     {service.title}
@@ -57,7 +57,9 @@ const Services = () => {
             );
           })}
         </div>
-        <Button text={"button"}/>
+        <div className={styles.buttonWrapper}>
+          <Button text={"request a quote"} />
+        </div>
       </div>
     </section>
   );

@@ -70,3 +70,10 @@
   font-size: 18px;
   line-height: 28px;
 }
+.buttonWrapper {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
