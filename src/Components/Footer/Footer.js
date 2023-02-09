@@ -14,7 +14,7 @@ const Footer = () => {
               Making great ideas a reality on the web.
             </p>
           </div>
-          <p className={styles.text}>© 2022 LW Web Studio.</p>
+          <p className={styles.lowerText}>© 2022 LW Web Studio.</p>
         </div>
         <div className={styles.right}>
         <div className={styles.rightUpper}>
@@ -55,7 +55,7 @@ const Footer = () => {
             </div>
           </div>
           </div>
-          <p className={styles.text}>Southsea, Hampshire, UK, PO4. </p>
+          <p className={styles.lowerText}>Southsea, Hampshire, UK, PO4. </p>
         </div>
       </div>
     </section>
