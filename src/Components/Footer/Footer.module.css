@@ -26,9 +26,7 @@
 }
 .text {
   font-size: 16px;
-  line-height: 28px;
   color: var(--secondary-color);
-  margin: 0;
 }
 .lowerText {
   font-size: 14px;
