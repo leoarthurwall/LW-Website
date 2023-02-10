@@ -29,7 +29,6 @@
   color: var(--secondary-color);
   font-weight: 300;
   line-height: 24px;
-
 }
 .lowerText {
   font-size: 14px;
@@ -86,7 +85,6 @@
   position: relative;
   padding-bottom: 5px;
   color: var(--secondary-color);
-
 }
 
 .item:after {
@@ -100,7 +98,7 @@
   background-color: var(--accent-color);
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
-} 
+}
 
 .item:hover::after {
   transform: scaleX(1);
@@ -114,5 +112,18 @@
 @media only screen and (max-width: 992px) {
   .container {
     margin: 0px;
+    flex-direction: column;
+    padding: 50px 100px;
+  }
+  .footer {
+    height: auto;
+  }
+  .right {
+    padding: 0;
+    width: 100%;
+
+  }
+  .rightUpper {
+    margin: 50px 0;
   }
 }
