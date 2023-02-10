@@ -58,8 +58,12 @@ const Footer = () => {
           </div>
         </div>
         <div className={styles.lower}>
-          <p className={styles.lowerText}>Southsea, Hampshire, UK, PO4. </p>
-          <p className={styles.lowerText}>© 2023 LW Web Studio.</p>
+          <div className={styles.lowerTextWrapper}>
+            <p className={styles.lowerText}>Southsea, Hampshire, UK, PO4. </p>
+          </div>
+          <div className={styles.lowerTextWrapper}>
+            <p className={styles.lowerText}>© 2023 LW Web Studio.</p>
+          </div>
         </div>
       </div>
     </section>

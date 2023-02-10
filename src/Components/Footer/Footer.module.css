@@ -16,10 +16,18 @@
   flex-direction: column;
   padding: 50px;
 }
-.upper { 
+.upper {
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+.lower {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.lowerTextWrapper {
+  width: 50%;
 }
 .header {
   font-size: 22px;
@@ -47,18 +55,15 @@
   max-width: 320px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 .right {
   height: 100%;
   width: 50%;
-  max-width: 450px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 .rightUpper {
   width: 100%;
+  max-width: 450px;
+
   display: flex;
   justify-content: space-between;
 }
@@ -126,7 +131,6 @@
   .right {
     padding: 0;
     width: 100%;
-
   }
   .rightUpper {
     margin: 50px 0;
