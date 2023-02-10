@@ -89,3 +89,9 @@
   letter-spacing: 2px;
   margin: 0;
 }
+
+@media only screen and (max-width: 992px) {
+  .container {
+    margin: 0px;
+  }
+}

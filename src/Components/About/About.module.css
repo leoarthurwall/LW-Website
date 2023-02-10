@@ -74,6 +74,7 @@
   .container {
     flex-direction: column;
     justify-content: space-between;
+    margin: 50px;
   }
   .left {
     position: relative;
@@ -86,19 +87,13 @@
     height: 100%;
     width: 100%;
   }
-}
-
-@media only screen and (max-width: 760px) {
-  .container {
-    margin: 50px;
+  .bottom {
+    right: -30px;
+    bottom: -30px;
   }
   .left {
     left: -30px;
     top: -30px;
   }
-  .bottom {
-    right: -30px;
-    bottom: -30px;
-
-  }
 }
+
