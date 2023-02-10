@@ -10,7 +10,7 @@ import Work from "./Components/Work/Work";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Nav />
       <Menu />
       <Home />
@@ -20,7 +20,7 @@ function App() {
       <Reviews />
       <Contact />
       <Footer />
-    </div>
+    </>
   );
 }
 

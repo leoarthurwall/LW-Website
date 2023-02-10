@@ -29,5 +29,27 @@
   padding: 0;
 }
 .accent {
-  color: var(--accent-color)
+  color: var(--accent-color);
+}
+
+@media only screen and (max-width: 980px) {
+  .text {
+    font-size: 42px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .text {
+    font-size: 42px;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .text {
+    font-size: 36px;
+  }
+  .container {
+    margin: 0 50px;
+  }
 }
