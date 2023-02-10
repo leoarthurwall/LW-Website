@@ -13,8 +13,13 @@
   background-color: #121212;
   margin: 0 100px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   padding: 50px;
+}
+.upper { 
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 .header {
   font-size: 22px;
@@ -47,10 +52,10 @@
 .right {
   height: 100%;
   width: 50%;
+  max-width: 450px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 0 50px;
 }
 .rightUpper {
   width: 100%;
