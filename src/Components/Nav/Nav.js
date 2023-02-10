@@ -13,9 +13,7 @@ const Nav = () => {
       <div className={styles.container}>
         <Logo fontSize={"36px"} color={"var(--black-color)"} />
         {isTablet ? (
-          <span className={styles.iconWrapper}>
-            <HiMenu />
-          </span>
+          <HiMenu size={32} />
         ) : (
           <ul className={styles.list}>
             <li className={styles.item}>About Me</li>
