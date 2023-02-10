@@ -90,17 +90,15 @@
 
 @media only screen and (max-width: 760px) {
   .container {
-    margin: 0;
+    margin: 50px;
   }
   .left {
-    left: 0px;
-    top: 0px;
+    left: -30px;
+    top: -30px;
   }
   .bottom {
-    right: 0px;
-    bottom: -60px;
-    border: none;
-    border-bottom: 12px dotted var(--accent-color);
+    right: -30px;
+    bottom: -30px;
 
   }
 }
