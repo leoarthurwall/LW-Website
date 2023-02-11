@@ -51,7 +51,6 @@
 }
 .left {
   height: 100%;
-  width: 50%;
   max-width: 320px;
   display: flex;
   flex-direction: column;
@@ -142,5 +141,8 @@
     margin: 50px 0;
     flex-direction: column;
     gap: 30px;
+  }
+  .lowerTextWrapper {
+    width: 100%;
   }
 }
