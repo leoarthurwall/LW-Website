@@ -137,6 +137,9 @@
     padding: 0;
     width: 100%;
   }
+  .left {
+    max-width: none;
+  }
   .rightUpper {
     margin: 50px 0;
     flex-direction: column;
