@@ -81,9 +81,20 @@
   .gridContainer {
     grid-template-columns: 1fr;
   }
+  .upper {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .text {
+    text-align: center;
+  }
+  .lower {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 760px) {
   .container {
     margin: 0 50px;
+    margin-top: 100px;
   }
 }
