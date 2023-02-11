@@ -32,7 +32,6 @@
 }
 
 .gridItem {
-  min-width: 400px;
   height: 400px;
   background-color: var(--secondary);
   position: relative;
@@ -93,5 +92,13 @@
 @media only screen and (max-width: 992px) {
   .container {
     margin: 0px;
+  }
+  .header {
+    margin-left: 100px;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .header {
+    margin-left: 50px;
   }
 }
