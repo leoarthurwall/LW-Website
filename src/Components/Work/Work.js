@@ -23,9 +23,11 @@ const Work = () => {
   return (
     <section className={styles.work}>
       <div className={styles.container}>
-        <h2 className={styles.header}>
-          Featured Work<span className={styles.accent}>.</span>
-        </h2>
+        <div className={styles.headerWrapper}>
+          <h2 className={styles.header}>
+            Featured Work<span className={styles.accent}>.</span>
+          </h2>
+        </div>
         <div className={styles.gridContainer}>
           {workArray.map((work, index) => {
             return (
