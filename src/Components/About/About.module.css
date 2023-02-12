@@ -117,4 +117,7 @@
   .right {
     padding: 40px 20px;
   }
+  .header {
+    font-size: 36px;
+  }
 }

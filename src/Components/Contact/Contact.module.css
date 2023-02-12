@@ -46,4 +46,7 @@
   .container {
     padding: 20px;
   }
+  .header {
+    font-size: 36px;
+  }
 }
