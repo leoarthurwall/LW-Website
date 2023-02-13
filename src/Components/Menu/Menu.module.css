@@ -1,60 +1,58 @@
 .containerOpen {
-    position: fixed;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: white;
-    z-index: 50;
-    visibility: visible;
-    transition: all 0.4s;
-    opacity: 1;
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .containerClosed {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    height: 100%;
-    width: 100%;
-    background-color: white;
-    z-index: 50;
-    visibility: hidden;
-    transition: all 0.4s;
-    opacity: 0;
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .list {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    list-style-type: none;
-    font-size: 44px;
-    gap: 25px;
-    font-weight: 300;
-    color: var(--primary);
-    padding: 0;
-    height: fit-content;
-  }
-  
-  .item {
-    transition: 0.2s;
-  
-  }
-  .item:hover {
-    color: var(--grey);
-    scale: 1.05;
-  }
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--white-color);
+  z-index: 50;
+  visibility: visible;
+  transition: all 0.4s;
+  opacity: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.containerClosed {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--white-color);
+  z-index: 50;
+  visibility: hidden;
+  transition: all 0.4s;
+  opacity: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  list-style-type: none;
+  font-size: 44px;
+  gap: 25px;
+  font-weight: 300;
+  color: var(--black-color);
+  padding: 0;
+  height: fit-content;
+}
+
+.item {
+  transition: 0.2s;
+}
+.item:hover {
+  color: var(--grey-color);
+  scale: 1.05;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
