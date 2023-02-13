@@ -7,22 +7,22 @@ const Menu = ({ isOpen, handleMenuClick }) => {
       <ul className={styles.list}>
         <li className={styles.item}>
           <a href="#home" onClick={handleMenuClick}>
-            Home
+            About Me
           </a>
         </li>
         <li className={styles.item}>
           <a href="#about" onClick={handleMenuClick}>
-            About
+            My Services
           </a>
         </li>
         <li className={styles.item}>
           <a href="#services" onClick={handleMenuClick}>
-            Services
+            Previous Work
           </a>
         </li>
         <li className={styles.item}>
           <a href="#contact" onClick={handleMenuClick}>
-            Contact
+            Get In Touch
           </a>
         </li>
       </ul>
