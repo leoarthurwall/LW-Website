@@ -49,7 +49,7 @@
   transition: 0.2s;
 }
 .item:hover {
-  color: var(--grey-color);
+  color: var(--accent-color);
   scale: 1.05;
 }
 a {
