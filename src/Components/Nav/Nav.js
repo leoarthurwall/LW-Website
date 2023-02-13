@@ -2,10 +2,11 @@ import React from "react";
 import Logo from "../../Parts/Logo/Logo";
 import styles from "./Nav.module.css";
 import { HiMenu } from "react-icons/hi";
+import { AiOutlineClose } from "react-icons/ai";
 
 import { useMediaQuery } from "react-responsive";
 
-const Nav = ({ handleMenuClick }) => {
+const Nav = ({ handleMenuClick, isOpen }) => {
   const isTablet = useMediaQuery({ query: "(max-width: 992px)" });
 
   return (
@@ -13,7 +14,11 @@ const Nav = ({ handleMenuClick }) => {
       <div className={styles.container}>
         <Logo fontSize={"36px"} color={"var(--black-color)"} />
         {isTablet ? (
-          <HiMenu size={32} onClick={handleMenuClick}/>
+          isOpen ? (
+            <AiOutlineClose size={40} onClick={handleMenuClick} />
+          ) : (
+            <HiMenu size={32} onClick={handleMenuClick} />
+          )
         ) : (
           <ul className={styles.list}>
             <li className={styles.item}>About Me</li>
