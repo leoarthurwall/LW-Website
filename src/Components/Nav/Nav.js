@@ -5,7 +5,7 @@ import { HiMenu } from "react-icons/hi";
 
 import { useMediaQuery } from "react-responsive";
 
-const Nav = () => {
+const Nav = ({ handleMenuClick }) => {
   const isTablet = useMediaQuery({ query: "(max-width: 992px)" });
 
   return (
@@ -13,7 +13,7 @@ const Nav = () => {
       <div className={styles.container}>
         <Logo fontSize={"36px"} color={"var(--black-color)"} />
         {isTablet ? (
-          <HiMenu size={32} />
+          <HiMenu size={32} onClick={handleMenuClick}/>
         ) : (
           <ul className={styles.list}>
             <li className={styles.item}>About Me</li>

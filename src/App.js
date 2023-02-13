@@ -7,12 +7,23 @@ import Nav from "./Components/Nav/Nav";
 import Reviews from "./Components/Reviews/Reviews";
 import Services from "./Components/Services/Services";
 import Work from "./Components/Work/Work";
+import { useState } from "react";
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false); //State of menu - open or closed
+
+  //toggles menu between open and closed
+  const handleMenuClick = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <>
-      <Nav />
-      <Menu />
+      <Nav
+        handleMenuClick={handleMenuClick}
+        isOpen={isOpen}
+        setIsOpen={setIsOpen}
+      />
+      <Menu isOpen={isOpen} handleMenuClick={handleMenuClick} />
       <Home />
       <About />
       <Services />
