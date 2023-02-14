@@ -11,22 +11,22 @@ const Services = () => {
     {
       title: "Web Development",
       icon: BiCodeAlt,
-      text: "My main area of expertise lies within frontend development but can also offer backend development to deliver any web functionalities to suit all your project needs. This could be by building a brand new website or perhaps by adding extra features to an exiting one.",
+      text: "I offer custom website development services that are designed to meet the unique needs and goals of each project. My expertise in HTML, CSS, JavaScript, React, TypeScript, and WordPress allows me to create dynamic and responsive websites that deliver an exceptional user experience.",
     },
     {
       title: "Web Design",
       icon: MdDesignServices,
-      text: "My main area of expertise lies within frontend development but can also offer backend development to deliver any web functionalities to suit all your project needs. This could be by building a brand new website or perhaps by adding extra features to an exiting one.",
+      text: "I provide professional website design services that focus on creating visually stunning websites that engage audiences and drive results. My goal is to create a design that accurately reflects your brand and enhances your online presence.",
     },
     {
       title: "Web Maintenance",
       icon: AiTwotoneSetting,
-      text: "My main area of expertise lies within frontend development but can also offer backend development to deliver any web functionalities to suit all your project needs. This could be by building a brand new website or perhaps by adding extra features to an exiting one.",
+      text: "I offer ongoing website maintenance services that ensure your website remains up-to-date and runs smoothly. I provide regular updates, backups, and troubleshooting services to keep your website performing at its best.",
     },
     {
       title: "Web Optimisation",
       icon: GiTestTubes,
-      text: "My main area of expertise lies within frontend development but can also offer backend development to deliver any web functionalities to suit all your project needs. This could be by building a brand new website or perhaps by adding extra features to an exiting one.",
+      text: "I optimize your website to improve its performance, speed, and search engine rankings. This includes optimizing website code, images, and content to ensure that your website delivers the best possible user experience and maximizes your online visibility.",
     },
   ];
 
