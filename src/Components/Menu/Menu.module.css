@@ -49,10 +49,28 @@
   transition: 0.2s;
 }
 .item:hover {
-  color: var(--accent-color);
+  color: var(--grey-color);
   scale: 1.05;
 }
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.item:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--accent-color);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.item:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
