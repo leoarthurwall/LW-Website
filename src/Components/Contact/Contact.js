@@ -10,14 +10,14 @@ const Contact = () => {
           Contact<span className={styles.accent}>.</span>
         </h2>
         <p className={styles.text}>
-          As a freelance web developer, I'm committed to providing you with a
-          high-quality service tailored to your personal needs. I am currently
-          available to take on new work, so if you're interested in working
-          together, please feel free to get in contact with by email or phone.
+          I'd love to hear from you and discuss your project! You can reach me
+          via email or via phone. Please feel free to share as much detail about
+          your project as possible, and I'll get back to you promptly to discuss
+          further. I look forward to hearing from you!
         </p>
         <div className={styles.buttonWrapper}>
-            <Button text={"get in touch"} />
-          </div>
+          <Button text={"get in touch"} />
+        </div>
       </div>
     </section>
   );
