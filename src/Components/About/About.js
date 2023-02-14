@@ -14,12 +14,14 @@ const About = () => {
           </h2>
           <p className={styles.text}>
             {" "}
-            I am a freelance web designer and front-end developer based in SW4
-            London offering a wide variety of website design and development
-            solutions for SMEs, local businesses and self-employed professionals
-            including informational, promotional and eCommerce websites. Whether
-            you’re looking for a brand new or wish to further develop an
-            existing website, I would be happy to help you achieve your goal.{" "}
+            As a front-end web developer and designer, I help businesses and
+            individuals bring their online visions to life. I use my expertise
+            in HTML, CSS, JavaScript, React, TypeScript, and WordPress to create
+            custom websites and web applications that are designed to meet the
+            specific needs and goals of each project. My goal is to deliver
+            high-quality digital experiences that are both visually stunning and
+            user-friendly, while driving results and maximizing the return on
+            investment for my clients.{" "}
           </p>
           <div className={styles.buttonWrapper}>
             <Button text={"find out more"} />
