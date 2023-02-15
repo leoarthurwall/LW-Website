@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Services.module.css";
 import { BiCodeAlt } from "react-icons/bi";
 import { MdDesignServices } from "react-icons/md";
-import { AiTwotoneSetting } from "react-icons/ai";
+import { IoSettingsOutline } from "react-icons/io5";
 import { GiTestTubes } from "react-icons/gi";
 import Button from "../../Parts/Button/Button";
 
@@ -20,7 +20,7 @@ const Services = () => {
     },
     {
       title: "Web Maintenance",
-      icon: AiTwotoneSetting,
+      icon: IoSettingsOutline,
       text: "I offer ongoing website maintenance services that ensure your website remains up-to-date and runs smoothly. I provide regular updates, backups, and troubleshooting services to keep your website performing at its best.",
     },
     {
