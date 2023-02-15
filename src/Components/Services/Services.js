@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./Services.module.css";
-import { BiCodeAlt } from "react-icons/bi";
-import { BiPaint } from "react-icons/bi";
+import { BiPaint, BiCodeAlt } from "react-icons/bi";
 import { IoSettingsOutline } from "react-icons/io5";
 import { GiTestTubes } from "react-icons/gi";
 import Button from "../../Parts/Button/Button";
