@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Services.module.css";
 import { BiCodeAlt } from "react-icons/bi";
-import { MdDesignServices } from "react-icons/md";
+import { BiPaint } from "react-icons/bi";
 import { IoSettingsOutline } from "react-icons/io5";
 import { GiTestTubes } from "react-icons/gi";
 import Button from "../../Parts/Button/Button";
@@ -15,7 +15,7 @@ const Services = () => {
     },
     {
       title: "Web Design",
-      icon: MdDesignServices,
+      icon: BiPaint,
       text: "I provide professional website design services that focus on creating visually stunning websites that engage audiences and drive results. My goal is to create a design that accurately reflects your brand and enhances your online presence.",
     },
     {
