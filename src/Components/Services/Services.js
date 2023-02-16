@@ -3,7 +3,7 @@ import styles from "./Services.module.css";
 import { BiCodeAlt } from "react-icons/bi";
 import { IoSettingsOutline } from "react-icons/io5";
 import { BsBrush } from "react-icons/bs";
-import { GiTestTubes } from "react-icons/gi";
+import { GrOptimize } from "react-icons/gr";
 
 import Button from "../../Parts/Button/Button";
 
@@ -26,7 +26,7 @@ const Services = () => {
     },
     {
       title: "Web Optimisation",
-      icon: GiTestTubes,
+      icon: GrOptimize,
       text: "I optimize your website to improve its performance, speed, and search engine rankings. This includes optimizing website code, images, and content to ensure that your website delivers the best possible user experience and maximizes your online visibility.",
     },
   ];
