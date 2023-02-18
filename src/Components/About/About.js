@@ -7,7 +7,7 @@ const About = () => {
     <section className={styles.about}>
       <div className={styles.container}>
         <div className={styles.left}>
-          <img src="https://www.clipartmax.com/png/small/184-1841688_web-development-clipart-transparent-web-design-vector-png.png" alt="web development animation"></img>
+          <img src="images/about.png" alt="web development animation"></img>
         </div>
         <div className={styles.bottom}></div>
         <div className={styles.right}>
