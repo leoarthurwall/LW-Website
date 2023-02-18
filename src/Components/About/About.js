@@ -7,7 +7,7 @@ const About = () => {
     <section className={styles.about}>
       <div className={styles.container}>
         <div className={styles.left}>
-          <img src="images/about.png" alt="web development animation"></img>
+          <img className={styles.img} src="images/about.png" alt="web development animation"></img>
         </div>
         <div className={styles.bottom}></div>
         <div className={styles.right}>

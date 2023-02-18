@@ -22,12 +22,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10%;
   height: 100%;
   width: 50%;
   left: -60px;
   top: -60px;
   background-color: var(--secondary-color);
+}
+.img {
+  width: 100%;
 }
 .right {
   height: 100%;
