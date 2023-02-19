@@ -4,7 +4,6 @@ import Footer from "./Components/Footer/Footer";
 import Home from "./Components/Home/Home";
 import Menu from "./Components/Menu/Menu";
 import Nav from "./Components/Nav/Nav";
-import Reviews from "./Components/Reviews/Reviews";
 import Services from "./Components/Services/Services";
 import Work from "./Components/Work/Work";
 import { useState } from "react";
@@ -28,7 +27,6 @@ function App() {
       <About />
       <Services />
       <Work />
-      <Reviews />
       <Contact />
       <Footer />
     </>
